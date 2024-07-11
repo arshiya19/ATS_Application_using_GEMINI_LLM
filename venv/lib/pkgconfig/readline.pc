@@ -1,0 +1,12 @@
+prefix=/Users/arshiyanaheed/Desktop/my_git_repos/ATS_Application_using_GEMINI_LLM/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Readline
+Description: Gnu Readline library for command line editing
+URL: http://tiswww.cwru.edu/php/chet/readline/rltop.html
+Version: 8.2
+Requires.private: ncurses
+Libs: -L${libdir} -lreadline
+Cflags: -I${includedir}

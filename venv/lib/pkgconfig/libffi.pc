@@ -1,0 +1,11 @@
+prefix=/Users/arshiyanaheed/Desktop/my_git_repos/ATS_Application_using_GEMINI_LLM/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/arshiyanaheed/Desktop/my_git_repos/ATS_Application_using_GEMINI_LLM/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

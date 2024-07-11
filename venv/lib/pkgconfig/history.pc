@@ -1,0 +1,11 @@
+prefix=/Users/arshiyanaheed/Desktop/my_git_repos/ATS_Application_using_GEMINI_LLM/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: History
+Description: Gnu History library for managing previously-entered lines
+URL: http://tiswww.cwru.edu/php/chet/readline/rltop.html
+Version: 8.2
+Libs: -L${libdir} -lhistory
+Cflags: -I${includedir}

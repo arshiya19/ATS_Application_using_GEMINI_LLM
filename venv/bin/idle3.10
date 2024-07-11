@@ -1,0 +1,5 @@
+#!/Users/arshiyanaheed/Desktop/my_git_repos/ATS_Application_using_GEMINI_LLM/venv/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

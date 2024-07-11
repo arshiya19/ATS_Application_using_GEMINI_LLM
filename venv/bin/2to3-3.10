@@ -1,0 +1,5 @@
+#!/Users/arshiyanaheed/Desktop/my_git_repos/ATS_Application_using_GEMINI_LLM/venv/bin/python3.10
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))
